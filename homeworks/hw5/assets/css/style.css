@@ -9,7 +9,7 @@
         FIXME: Initialize flexbox vertically. Align the text and icons so that they
         are center aligned. */
         display: flex;
-        lex-direction: column;f
+        flex-direction: column;
         align-items: center;
 
 
