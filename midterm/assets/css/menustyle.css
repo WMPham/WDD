@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background-image: url("../img/paperbg.png");
+    background-size: cover;
+}
+.men-button, .text{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}  
+.menu-list a{
+    text-decoration: none;
+    color: black;
+}
+.men-button:hover{
+    text-decoration: underline;
+}
+.menu-landing{
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}    
+.navbar-item{
+    /*trying to space them closer together but keep it to the right*/
+    margin: auto;
+    justify-content: flex-end;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-item:hover{
+    text-decoration: underline;
+}
+.navbar-item-menu, .navbar-item-menu:visited, .navbar-item-menu:link,.navbar-item-menu:active{
+    /*???? why is it not changing colors*/
+    color:black;
+    text-decoration: none;
+    
+}
+.order{
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.menu-item-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 200px;
+}
+.description{
+    background-color: brown;
+    border-radius: 20%;
+    padding: 10px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
