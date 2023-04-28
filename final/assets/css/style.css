@@ -1,0 +1,46 @@
+body.index{
+    background-color: rgba(243, 255, 227, 0.65);
+}
+body.main{
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+}
+.home-icon{
+  display: flex;
+  justify-content: center;
+}
+.home-icon {
+    animation: rotation 45s infinite;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(360deg);
+    }
+  }
+#lychee, #pbow, #wbow, #ydog, #ystar, #twinkle, #toast, #tae, #strawberry, #pinkheart, #phflower, #oski, #narutomaki, 
+#greenheart, #frog, #fishbowl, #bunny, #bubble, #angel{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
+#tape{
+  position: absolute;
+  margin-top: -175px;
+}
+#label{
+  font-family: 'Homemade Apple', cursive;
+  color: #6b6b6b;
+  font-size: xx-large;
+  position: relative;
+  right: 400px;
+  top: -250px;
+  transform: rotate(-30deg);
+}
